@@ -1,0 +1,8 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE chat_db(
+id Int, author String, message String);
+INSERT INTO chat_db VALUES(0,'Jack','This class is so much fun.');
+INSERT INTO chat_db VALUES(1,'Matt','Yeah it really is a great time.');
+INSERT INTO chat_db VALUES(2,'Calvin','Code spout code spout code spout');
+COMMIT;
